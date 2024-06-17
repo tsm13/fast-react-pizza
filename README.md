@@ -22,7 +22,6 @@
 
 ## Tools and technical concepts
 
-- RESTful API
 - Redux: to practice global state management
 - Tailwind CSS: to style the app
 - React Router: to create a seamless transition within the SPA

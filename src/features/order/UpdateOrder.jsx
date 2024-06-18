@@ -1,13 +1,17 @@
 import { useFetcher } from 'react-router-dom';
 import { updateOrder } from '../../services/apiRestaurant';
+import { formatCurrency } from '../../utils/helpers';
 import Button from '../../ui/Button';
 
-function UpdateOrder() {
+function UpdateOrder({ order }) {
   const fetcher = useFetcher();
 
   return (
     <fetcher.Form method="PATCH" className="text-right">
-      <Button type="primary">Make priority</Button>
+      <Button type="primary">
+        Make priority (+
+        {formatCurrency(Math.round(order.orderPrice * 0.2))})
+      </Button>
     </fetcher.Form>
   );
 }

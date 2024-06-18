@@ -24,7 +24,7 @@
 
 - Redux: to practice global state management
 - Tailwind CSS: to style the app
-- React Router v6.4: to create a seamless transition within the SPA and pass data between pages using forms
+- React Router v6.4: to create a seamless transition within the SPA and pass data between pages using this lib's forms
 
 ### Notes
 

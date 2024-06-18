@@ -32,6 +32,7 @@ function CreateOrder() {
 
   const dispatch = useDispatch();
 
+  // For error handling:
   const formErrors = useActionData();
   const cart = useSelector(getCart);
   const totalCartPrice = useSelector(getTotalCartPrice);
@@ -150,8 +151,6 @@ export async function action({ request }) {
     cart: JSON.parse(data.cart),
     priority: data.priority === 'true',
   };
-
-  console.log(order);
 
   // Error handling
   const errors = {};

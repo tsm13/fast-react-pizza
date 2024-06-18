@@ -1,6 +1,6 @@
 # Fast React Pizza 🍕
 
-🇬🇧 Dynamic pizza app with order tracking!
+🇬🇧 Dynamic pizza app with order tracking! App built with the help of Jonas Schmedtmann, as part of his [Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/).
 
 🇧🇷 App dinâmico de delivery de pizza com acompanhamento de pedido!
 
